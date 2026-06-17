@@ -1,4 +1,37 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://pbharadwaj28.com/'
+languageCode = 'en-us'
+title = 'Prajwal Bharadwaj'
 theme = 'PaperMod'
+
+[params]
+    # Profile Mode: Shows photo, name, and buttons at the top of homepage
+    [params.profileMode]
+        enabled = true
+        title = "Prajwal Bharadwaj"
+        subtitle = "Mechanical Engineer, Ph.D. Candidate, Solid Mechanics | Worcester Polytechnic Institute"
+        imageUrl = "images/me.jpg"
+        imageWidth = 180
+        imageHeight = 180
+        buttons = [
+            { name = "📄 CV", url = "/docs/cv.pdf" },
+            { name = "📧 Email", url = "mailto:pabharadwaj@wpi.edu" }
+        ]
+
+    # Social Media Icons
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/pbharadwaj28"
+    [[params.socialIcons]]
+        name = "googlescholar"
+        url = "https://scholar.google.com/citations?user=ALozWkTyy8cC&hl=en"
+
+# Menu navigation at top of page
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 2
