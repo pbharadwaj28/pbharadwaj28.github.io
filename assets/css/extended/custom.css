@@ -1,0 +1,9 @@
+/* Make profile image rectangular with rounded corners instead of circle */
+.profile img {
+    border-radius: 10px !important;  /* Rounded corners, not a circle */
+    object-fit: contain !important;  /* Show full image, not cropped */
+    width: auto !important;
+    height: auto !important;
+    max-width: 600px;               /* Adjust to your preferred size */
+    max-height: 600px;
+}

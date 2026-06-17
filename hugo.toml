@@ -10,13 +10,13 @@ theme = 'PaperMod'
         title = "Prajwal Bharadwaj"
         subtitle = "Mechanical Engineer, Ph.D. Candidate, Solid Mechanics | Worcester Polytechnic Institute"
         imageUrl = "images/me.jpg"
-        imageWidth = 180
-        imageHeight = 180
+        imageWidth = 200
+        imageHeight = 200
         buttons = [
             { name = "📄 CV", url = "/docs/cv.pdf" },
             { name = "📧 Email", url = "mailto:pabharadwaj@wpi.edu" }
         ]
-
+    
     # Social Media Icons
     [[params.socialIcons]]
         name = "github"
@@ -32,6 +32,11 @@ theme = 'PaperMod'
     weight = 1
 
 [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
     name = "Projects"
     url = "/projects"
-    weight = 2
+    weight = 3
